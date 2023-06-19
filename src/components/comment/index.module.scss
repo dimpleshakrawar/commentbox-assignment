@@ -1,0 +1,18 @@
+.commentWrapper {
+  margin: 10px 0;
+  .comment_user {
+    display: flex;
+    gap: 5px;
+    .comment_user_title {
+      margin: 0;
+      font-size: 14px;
+    }
+    .comment_user_time {
+      color: #908E8F;
+    }
+  }
+  .comment_name {
+    color: #908E8F;
+    word-wrap: break-word;
+  }
+}
